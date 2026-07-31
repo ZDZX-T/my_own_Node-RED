@@ -31,6 +31,9 @@ server {
 
     location /esphome/ {
         proxy_pass http://127.0.0.1:6052/;
+        # 如果直接访问端口可访问，但是访问路径无法访问，可以尝试取消下方注释
+        # sub_filter '<base href="/">' '<base href="/esphome/">';
+        # sub_filter_once on;
     }
 
     location /nodered/ {

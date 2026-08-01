@@ -53,7 +53,6 @@ remote_receiver:
         pullup: True
     id: IR_receiver
     tolerance: 55%
-    rmt_channel: 2
     on_lg: 
       then:
         - lambda: id(recv_IR).publish_state(true);
@@ -67,7 +66,6 @@ remote_receiver:
 remote_transmitter:
   - pin: GPIO18
     carrier_duty_percent: 50%
-    rmt_channel: 0
     id: IR_transmitter
 
 

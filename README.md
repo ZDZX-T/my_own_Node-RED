@@ -18,6 +18,7 @@ gitee克隆主页[https://gitee.com/ZDZX-T/ZDZX_Smart_Home](https://gitee.com/ZD
 | [小爱本地化](./小爱本地化/README.md)                                         | 低成本稳定解决小爱接收的语音指令到HA有延迟的问题                                           |
 | [华为欧普吸顶灯](./华为欧普吸顶灯/README.md)                                     | 替换控制盒，使其接入HA。内含全部代码、PCB、外壳                                          |
 | [树莓派+Ubuntu Server+HA Container安装指南](./HA_Container方式安装/README.md) | 因HA不再支持Supervised安装方式，因此打算从头整理一个Container安装指南，包含ESPHome、Node-RED等内容 |
+| [ESPHome Desktop C盘文件迁移](./ESPHome文件搬家/README.md)                  | 因HA不再支持Supervised安装方式，因此打算从头整理一个Container安装指南，包含ESPHome、Node-RED等内容 |
 
 ## 提交issue
 

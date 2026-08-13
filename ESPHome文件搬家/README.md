@@ -33,6 +33,8 @@
 
 ## 使用方法
 
+0. **下载安装ESPHome Desktop**：[https://esphome.io/install/](https://esphome.io/install/)  
+
 1. **放置脚本**：将脚本放置于迁移的目标目录（一般是 ESPHome 的安装目录，脚本会将所有数据迁移到其所在目录）
 
 2. **执行迁移**：进入脚本所在目录，运行：
